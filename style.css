@@ -1,7 +1,6 @@
 body {
 	font-family: 'Gotham', sans-serif;
-	background: url("bg.png") center no-repeat fixed;
-	background-size: 100%;
+	background: url("bg.png") no-repeat fixed;
 
 }
 
@@ -13,13 +12,12 @@ header {
 .caixa {
 	position: relative;
 	width: 900px;
-	margin: 0 auto;
-	padding: 1px;
+	margin: 50px auto;
 	text-align: center;
 }
 
 .logo-header {
-	height: 150px;
+	width: 100%;
 	margin: 0 0 5px 0;
 }
 
@@ -82,7 +80,7 @@ header {
 footer {
 	text-align: center;
 	background: #17392f;
-	margin: 20px 0 0 0;
+	margin: 50px 0;
 	padding: 20px 0;
 	width: auto;
 }
@@ -108,9 +106,7 @@ footer {
 		padding: 0;
 	}
 
-	.logo-header {
-	height: 100px; 
-}
+
 	
 	.principal, .tecnico-area {
 		width: 90%;
