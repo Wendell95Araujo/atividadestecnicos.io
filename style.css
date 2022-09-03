@@ -1,12 +1,11 @@
 body {
 	font-family: 'Gotham', sans-serif;
-	background: url("bg.png") no-repeat;
-
-
+	background: url("bg.png") center no-repeat;
+	background-size: 100%;
 }
 
 header {
-	padding: 30px 0;
+	padding: 35px 0;
 	background: #17392f;
 }
 
@@ -48,11 +47,11 @@ header {
 	background: #00754a;
 	display: inline-block;
 	width: 400px;
-	margin: 20px auto;
+	margin: 40px auto 20px;
 }
 
 .tecnico-tipo:hover {
-	background: #17392f;
+	background: #ef8943;
 }
 
 .tecnico {
@@ -82,7 +81,7 @@ header {
 footer {
 	text-align: center;
 	background: #17392f;
-padding-top: 50px;
+	padding: 25px 0;
 	width: auto;
 }
 
@@ -103,6 +102,14 @@ padding-top: 50px;
 		width: auto;
 	}
 
+	header {
+		padding: 0;
+	}
+
+	body {
+		background-size: 350%;
+	}
+	
 	.principal, .tecnico-area {
 		width: 90%;
 	}
