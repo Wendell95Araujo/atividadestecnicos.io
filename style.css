@@ -1,7 +1,7 @@
 body {
 	font-family: 'Gotham', sans-serif;
-	background: url("bg.png") center no-repeat;
-	background-size: 100%;
+	background: url("bg.png") fixed center;
+	background-size: 250%;
 }
 
 header {
@@ -13,7 +13,7 @@ header {
 	position: relative;
 	width: 900px;
 	margin: 0 auto;
-	padding: 50px 0;
+	padding: 25px 0;
 	text-align: center;
 }
 
@@ -25,14 +25,68 @@ header {
 .text-header {
 	font-size: 25px;
 	color: #FFFFFF;
-	margin: 0 auto;
+	margin: 10px auto;
 	font-weight: bold;
+}
+
+.home {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 0.9em;
+}
+
+.home:hover {
+	color: #ef8943;
 }
 
 .principal {
 	width: 70%;
 	margin: 0 auto;
 	text-align: center;
+}
+
+.equipe-area {
+	width: 600px;
+	margin: 10px auto;
+	padding: 20px 0;
+}
+
+.equipe-tipo {
+	font-size: 28px;
+	color: #FFFFFF;
+	padding: 10px;
+	background: #00754a;
+	display: inline-block;
+	width: 350px;
+	margin: 40px auto 0;
+}
+
+.equipe-tipo:hover {
+	background: #ef8943;
+}
+
+.equipe {
+	display: inline-block;
+	background: #006241;
+	position: relative;
+	text-align: center;
+	font-size: 18px;
+	padding: 20px ;
+	margin: 30px auto;
+	text-decoration: none;
+	color: #FFFFFF;
+	border: solid 1px;
+	border-radius: 15px;
+	box-shadow: inset 0 0 30px #FFFFFF;
+	width: 250px;
+}
+
+.equipe:hover {
+	cursor: pointer;
+	background: #00754a;
+	color: #ef8943;
+	font-weight: bold;
+	box-shadow: inset 0 0 30px #ef8943;
 }
 
 .tecnico-area {
@@ -48,7 +102,7 @@ header {
 	background: #00754a;
 	display: inline-block;
 	width: 350px;
-	margin: 40px auto 20px;
+	margin: 40px auto 0;
 }
 
 .tecnico-tipo:hover {
@@ -82,7 +136,7 @@ header {
 footer {
 	text-align: center;
 	background: #17392f;
-	padding: 25px 0;
+	padding: 30px 0;
 	width: auto;
 }
 
@@ -112,10 +166,10 @@ footer {
 	}
 
 	body {
-		background-size: 350%;
+		background-size: 400%;
 	}
 	
-	.principal, .tecnico-area {
+	.principal, .tecnico-area, .equipe-area {
 		width: 90%;
 	}
 
@@ -124,11 +178,11 @@ footer {
 /*Acessando pelo celular*/
 
 @media screen and (max-width: 480px) {
-	.caixa, .tecnico-tipo {
+	.caixa, .tecnico-tipo, .equipe-tipo {
 		width: 90%;
 	}
 
-	.tecnico {
+	.tecnico, .equipe {
 		width: 80%;
 	}
 
