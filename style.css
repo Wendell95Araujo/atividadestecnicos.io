@@ -31,12 +31,12 @@ header {
 
 .home {
 	text-decoration: none;
-	color: #FFFFFF;
+	color: #ef8943;
 	font-size: 0.9em;
 }
 
 .home:hover {
-	color: #ef8943;
+	color: #00754a;
 }
 
 .principal {
