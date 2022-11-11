@@ -22,6 +22,8 @@ Conteúdo:
 
 >Para acessar a página [clique aqui](https://wendell95araujo.github.io/atividadestecnicos.io/)
 
+>Para baixar o app [clique aqui](https://is.gd/AppAtividadesTecnico)
+
 
 Neste repositório você tem acesso a todo o material.
 
