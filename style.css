@@ -1,5 +1,11 @@
 body {
 	font-family: 'Gotham', sans-serif;
+	background: url("bg.jpg") fixed center;
+	background-size: 250%;
+}
+
+#home {
+	font-family: 'Gotham', sans-serif;
 	background: url("bg.png") fixed center;
 	background-size: 250%;
 }
