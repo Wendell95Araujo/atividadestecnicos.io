@@ -1,6 +1,6 @@
-(function() {
+/*(function() {
 	alertUpdate();
-})();
+})();*/
 
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
@@ -17,7 +17,7 @@ window.onscroll = function() {
 }
 
 
-function alertUpdate() {
+/*function alertUpdate() {
 
 	var cookieUpdate = getCookie('apk-tecnico-update');
 
@@ -47,4 +47,4 @@ function alertUpdate() {
 		}
 	}
 	
-}
+}*/
