@@ -38,12 +38,11 @@ header {
 .home {
 	text-decoration: none;
 	color: #ef8943;
-	font-size: 0.9em;
 }
 
-.home:hover {
+/*.home:hover {
 	color: #00754a;
-}
+}*/
 
 .principal {
 	width: 70%;
